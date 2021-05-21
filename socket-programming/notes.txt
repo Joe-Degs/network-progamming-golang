@@ -1,0 +1,8 @@
+Network programming gets more interesting when you dive into socket programming
+using the go primitives.
+
+Three keywords come up most when you glance through the net package of the go
+programming language's communication primitives
+- Dial => this is used to establish connections for sending messages
+- Conn => this represents a connection that you communicate through
+- Listen => this is used to establish connections for recieving requests from other servers who are probably using dial to send messages ( thats if they use golang too. )
